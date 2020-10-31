@@ -15,7 +15,7 @@ def login():
     import time
     print("Logging in...")
     global session
-    session = fut.Core(email="sizzlingtrader2@gmail.com", passwd="Qmjcxrej1", secret_answer="aaaa", platform='ps4',
+    session = fut.Core(email="sizzlingtrader2@gmail.com", passwd="", secret_answer="aaaa", platform='ps4',
                        debug=True)
     print("Login successfull!")
 
